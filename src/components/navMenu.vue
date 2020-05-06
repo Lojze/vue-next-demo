@@ -4,7 +4,7 @@
         <div class='nav-container'>
           <div>
             <input type='checkbox' name='slider'>
-            <label class="slide" for="slider">
+            <label class='slide' for='slider'>
               22
             </label>
           </div>
