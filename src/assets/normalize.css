@@ -347,3 +347,7 @@
   [hidden] {
     display: none;
   }
+
+  summary:focus {
+    outline-color: transparent;
+  }

@@ -6,10 +6,18 @@
       <router-link to="/demo">demo</router-link>|
       <router-link to="/test">Test</router-link>
     </div>
+     <navMenu />
     <router-view/>
   </div>
 </template>
-
+<script>
+import navMenu from '@/components/navMenu'
+export default {
+  components: {
+    navMenu
+  }
+}
+</script>
 <style lang="scss">
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;

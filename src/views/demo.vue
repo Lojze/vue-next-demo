@@ -1,6 +1,5 @@
 <template>
   <div class="demo">
-    <navMenu />
     <!-- 阴影控制 -->
     <boxShadow/>
     <div class="r"></div>
@@ -8,13 +7,12 @@
 </template>
 
 <script>
-import navMenu from '@/components/navMenu'
+
 import boxShadow from '@/components/boxShadow'
 export default {
   name: 'demo',
   setup () {},
   components: {
-    navMenu,
     boxShadow
   }
 }

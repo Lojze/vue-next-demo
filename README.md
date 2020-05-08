@@ -50,8 +50,6 @@ destroyed -> onUnmounted
 errorCaptured -> onErrorCaptured
 ```
 
-学习网站：https://zhuanlan.zhihu.com/p/95971223
-
 vue3.0中
 ref 跟 reactive 有啥区别？
 答：

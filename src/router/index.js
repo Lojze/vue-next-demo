@@ -1,5 +1,7 @@
 import { createRouter, createWebHistory } from 'vue-router'
 import Home from '../views/Home.vue'
+/* Layout */
+// import Layout from '@/layout'
 
 const routes = [
   {
