@@ -7,11 +7,14 @@
 </template>
 
 <script>
-
+// import { reactive, toRefs } from 'vue'
+// import Time from '@/utils/times.js'
 export default {
   name: 'Home',
-  components: {
-    // HelloWorld
+  components: { },
+  setup () {
+    console.log(this)
   }
+
 }
 </script>
