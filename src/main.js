@@ -6,4 +6,4 @@ import store from './store'
 
 import './assets/normalize.css'
 
-createApp(App).use(router).use(store).use().mount('#app')
+createApp(App).use(router).use(store).mount('#app')

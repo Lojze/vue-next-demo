@@ -35,7 +35,7 @@
         </div>
         <details>
             <summary>显示代码</summary>
-            boxShadow:<div v-html="styleObject.boxShadow"></div>
+            boxShadow:{{styleObject.boxShadow}}
         </details>
     </div>
   </div>

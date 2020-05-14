@@ -1,11 +1,11 @@
 <template>
   <header class='masthead'>
-  <div class='brand-container'>
+  <!-- <div class='brand-container'>
     <a href='#'>
       <span class='brand-initials'>Es</span>
       <span class='brand-name'>Elemental Shift</span>
     </a>
-  </div>
+  </div> -->
   <nav>
     <div class='nav-container'>
       <div>

@@ -1,6 +1,6 @@
 <template>
   <div class="home">
-    <p>this is home</p>
+    <a href="https://github.surmon.me/vue-awesome-swiper/">https://github.surmon.me/vue-awesome-swiper/</a>
 
   </div>
 </template>

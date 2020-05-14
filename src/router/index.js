@@ -26,6 +26,11 @@ const routes = [
     path: '/demo',
     name: 'demo',
     component: () => import('../views/demo.vue')
+  },
+  {
+    path: '/swiper',
+    name: 'swiper',
+    component: () => import('../views/swiper.vue')
   }
 ]
 

@@ -2,12 +2,13 @@
   <div id="app">
     <div id="nav">
       <router-link to="/">Home</router-link> |
-      <router-link to="/about">About</router-link>|
-      <router-link to="/demo">demo</router-link>|
-      <router-link to="/test">Test</router-link>
+      <router-link to="/about">About</router-link> |
+      <router-link to="/demo">demo</router-link> |
+      <router-link to="/test">Test</router-link> |
+      <router-link to="/swiper">swiper</router-link>
     </div>
      <navMenu />
-    <router-view/>
+    <router-view class="content"/>
   </div>
 </template>
 <script>
@@ -38,5 +39,9 @@ export default {
       color: #42b983;
     }
   }
+}
+.content {
+  width: 1000px;
+  margin: auto;
 }
 </style>
